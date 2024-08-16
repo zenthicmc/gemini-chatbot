@@ -162,7 +162,7 @@ async function submitUserMessage(content: string) {
   ;(async () => {
     try {
       const result = await streamText({
-        model: google('models/gemini-1.5-pro-latest'),
+        model: google('models/gemini-1.5-flash'),
         temperature: 0,
         tools: {
           showFlights: {
